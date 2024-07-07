@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/black" />
+
+    <TextView
+        android:id="@+id/textViewnotes"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="My Notes"
+        android:layout_marginStart="25dp"
+        android:textColor="#F6BE69"
+        android:textSize="24sp"
+        android:paddingTop="15dp"
+        android:layout_marginEnd="200dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-thin" />
+    <ImageView
+        android:id="@+id/add_note_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/ic_add"
+        android:contentDescription="Add Icon"
+        app:tint="#F6BE69" />
+    <ImageView
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/ic_logout"
+        android:contentDescription="Logout Icon"
+        app:tint="#F6BE69" />
+
+</RelativeLayout>
